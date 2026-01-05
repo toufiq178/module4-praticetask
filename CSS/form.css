@@ -1,0 +1,85 @@
+.container{
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    width: fit-content;
+    
+    display: block;
+    justify-content: center;
+    box-shadow: -2px -2px 4px black , 2px 2px 4px black;
+    border-radius: 4px;
+}
+
+.search-container{
+
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.search-container input{
+
+    padding: 5px ;
+    font-size: 1em;
+    text-align: center left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid  rgb(48, 47, 47);
+}
+
+.search-container button{
+
+    padding: 5px 13px;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+    border: 2px solid  rgb(48, 47, 47);
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.search-container button:hover{
+
+    background-color: rgb(245, 245, 245);
+}
+.search-container input:hover{
+
+    background-color: rgb(245, 245, 245);
+}
+.search-container figure ,img{
+    height: 300px;
+    
+}
+
+form{
+
+    border: 2px solid rgb(138, 135, 135);
+    width: fit-content;
+    padding: 12px;
+    font-size: larger;
+    box-shadow: -1px -1px 2px gray ,1px 1px 2px gray;
+    
+}
+caption{
+    font-weight: bolder;
+}
+form input{
+
+    display: inline-block;
+    padding: 7px;
+    font-size: large;
+    margin: 2px;
+}
+label{
+    display: block;
+}
+textarea{
+    padding: 5px;
+    font-size: large;
+}
+form button{
+
+    display: block;
+    font-weight: 400;
+    font-size: small;
+}
