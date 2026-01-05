@@ -23,12 +23,18 @@ nav li {
     list-style: none;
     padding: 10px;
     cursor: pointer;
-    text-shadow: 1px 1px 0 rgb(163, 162, 162);
     
 
 }
-nav li:hover{
+nav li a{
+    text-shadow: 1px 1px 0 rgb(119, 118, 118);
+    text-decoration: none;
+    list-style: none;
+    color: rgb(255, 174, 0);
+    padding: 7px;
+}
+nav li a:hover{
     background-color: rgb(235, 235, 235);
-    color: rgb(253, 165, 2);
+    color: rgb(2, 203, 253);
 }
 

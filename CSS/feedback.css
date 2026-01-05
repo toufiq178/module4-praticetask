@@ -1,0 +1,81 @@
+.titlefrom {
+    
+    text-align: center;
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+main{
+    padding: 12px;
+    justify-content: center;
+    display: block;
+}
+
+
+h1{
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    text-decoration: none;
+    list-style: none;
+    color: rgb(255, 174, 0);
+    padding: 7px;
+}
+.from-section{    
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color:rgb(255, 174, 0);
+    padding: 15px;
+    font-size: x-large;
+    width: 400px;
+    padding: 30px;
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: -1px -1px 2px gray ,1px 1px 2px gray;
+    border: 2px solid rgb(138, 135, 135);
+
+
+    
+}
+h3{
+    text-align: center;
+}
+form input{
+
+    font-size: large;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    box-shadow: -1px -1px 2px gray ,1px 1px 2px gray;
+}
+
+textarea{
+    font-size: large;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    box-shadow: -1px -1px 2px gray ,1px 1px 2px gray;
+
+}
+label{
+  
+    display: block;
+}
+
+select  {
+    
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    box-shadow: -1px -1px 2px gray ,1px 1px 2px gray;
+
+}
+form button{
+
+    display: block;
+    justify-self: center;
+    font-weight: 400;
+    font-size: large;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    padding: 8px 16px;
+    box-shadow: -1px -1px 2px gray ,1px 1px 2px gray;
+}
